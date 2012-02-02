@@ -1,9 +1,18 @@
 Installation:
 
-   git clone git://github.com/ntkog/mydotvim.git ~/.vim
+Just for avoiding a mess!
+
+   mkdir ~/mydotvim ; cd ~/mydotvim
+   git clone git://github.com/ntkog/mydotvim.git .
+
+Now, only creating some symlinks, you can have several vim stacks
+Just remember, if you want to use any of them, make sure .vim and .vimrc
+points to vim stack you want to use
 
 Create symlinks:
  
    ln -s ~/mydotvim/vimrc ~/.vimrc
-   ln -s ~/mydotvim/gvimrc ~/.gvimrc
+   ln -s ~/mydotvim/ ~/.vim
+
+Thanks a lot to all that people who wrote and share these excellent tools,
 
